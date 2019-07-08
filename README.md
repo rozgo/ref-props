@@ -1,5 +1,5 @@
 # Algebraic data type domain encoding
-A a reference implementation.
+A reference implementation.
 
 ### Encode problem domain using product and sum types, with annotations for auto-serialization.
 
@@ -9,7 +9,7 @@ A a reference implementation.
 
 ![alt text](img/construction.png)
 
-### Save or load from/to config files. As domain has been encoded using algebraic data types, load/save will preserver integraity of state or fail to produce invalid state.
+### Save or load from/to config files. As domain has been encoded using algebraic data types, load/save will preserve integrity of state or fail to produce invalid state.
 
 ![alt text](img/config.png)
 
