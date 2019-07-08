@@ -1,0 +1,51 @@
+---
+shield:
+  max_agents: 5
+  robots:
+    ? Id: 1
+    : platform: Pikachu
+      pose:
+        orientation:
+          s: 0.0
+          v:
+            x: 0.0
+            y: 0.0
+            z: 0.0
+        position:
+          x: 0.0
+          y: 0.0
+          z: 0.0
+    Leader:
+      platform: Domo
+      pose:
+        orientation:
+          s: 0.0
+          v:
+            x: 0.0
+            y: 0.0
+            z: 0.0
+        position:
+          x: 0.0
+          y: 0.0
+          z: 0.0
+    ? Id: 0
+    : platform: Pikachu
+      pose:
+        orientation:
+          s: 0.0
+          v:
+            x: 0.0
+            y: 0.0
+            z: 0.0
+        position:
+          x: 0.0
+          y: 0.0
+          z: 0.0
+engine:
+  ue4_engine:
+    mayor: 4
+    minor: 21
+  nvidia_physx:
+    mayor: 4
+    minor: 0
+build: "2019-07-08T16:57:36.407675263Z"
